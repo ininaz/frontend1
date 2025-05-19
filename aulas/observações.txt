@@ -36,3 +36,8 @@ background: #833ab4;
     #405de6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d
 =============================================================================================================
 shift alt f, para organizar as linhas 
+
+https://origamid.com/projetos/flexbox-guia-completo/
+para verificar sobre o flex (ler e estudar sobre)
+
+https://www.httpstatus.com.br/
