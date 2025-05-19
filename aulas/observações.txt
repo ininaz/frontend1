@@ -41,3 +41,5 @@ https://origamid.com/projetos/flexbox-guia-completo/
 para verificar sobre o flex (ler e estudar sobre)
 
 https://www.httpstatus.com.br/
+===============================================================================================================
+hover é a função de quando se passa o mouse em cima de um icone
