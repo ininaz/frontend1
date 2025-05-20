@@ -147,5 +147,32 @@ h2{
 /* link voltar do rodapé das páginas */
 .voltar{
     text-align: center;
-    margin top: 20px;
+    margin-top: 20px;
+}
+
+/* formatação do grid clinica */
+.grid-clinica{
+    display: flex;                      /*opção por layout em grid (grade), o padrão para o display é block*/
+    justify-content: space-between;     /*alinha pelas margens externas (direita e esquerda)*/
+    gap: 2rem;
+    align-items: flex-start;
+    div{
+        flex-grow: 1;                   /*permite expandir a imagem*/
+        flex-shrink: 1;                 /*permite reduzir a largura*/
+        flex-basis: 300px;              /*tamanho inicial*/
+       }    
+       img{
+        width: 100%;
+       }
+       h2{
+        text-align: start;              /*alinha a esquerda*/
+        margin-bottom: 15px;        
+        margin-top: 0px;
+       }
+       p{
+        line-height: 150%;              /*altura da linha ou expaçamento entre linhas*/
+        margin-bottom: 15px;            /*margem inferior*/
+        }
+
+
 }
