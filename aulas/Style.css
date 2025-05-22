@@ -173,6 +173,27 @@ h2{
         line-height: 150%;              /*altura da linha ou expaçamento entre linhas*/
         margin-bottom: 15px;            /*margem inferior*/
         }
+        ul,ol{
+            padding-left: 20px;
+            list-style: square;
+            li{
+                line-height: 170%;
+            }
+        }
+}
 
-
+/* Formatalçao do grid Especialidade */
+.grid-especialidades{
+    display: flex;                          
+    flex-wrap: wrap;                        
+    gap: 20px;                              
+    *{
+        flex-basis: 300px;                  
+        flex-grow: 1;                   
+        flex-shrink: 1;                     
+    }        
+    p{
+        line-height: 170%;
+        margin: 5px;
+    }
 }
