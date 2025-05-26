@@ -197,3 +197,25 @@ h2{
         margin: 5px;
     }
 }
+
+/* Formatação das tabelas */
+table{
+    width: 100%;
+    border-collapse: collapse;              /*para juntar as linhas(bordas) da tabela, tirando o espaçamento entre as linhas*/
+}
+th{
+    text-align: start;                      /*alinhamento a esquerda*/
+}
+
+.tabela1 th{
+    background-color: #aaa;    
+    border: 2px solid #aaa;
+    padding: 8px;
+}
+.tabela1 td{
+    border: 2px solid #ccc;
+    padding: 8px;
+}
+.tabela1 td:nth-child(3),.tabela1 th:nth-child(3){
+    text-align: end;
+}
