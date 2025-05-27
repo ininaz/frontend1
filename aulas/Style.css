@@ -210,12 +210,56 @@ th{
 .tabela1 th{
     background-color: #aaa;    
     border: 2px solid #aaa;
-    padding: 8px;
+    padding: 5px;
 }
 .tabela1 td{
     border: 2px solid #ccc;
-    padding: 8px;
+    padding: 5px;
 }
-.tabela1 td:nth-child(3),.tabela1 th:nth-child(3){
+.tabela1 td:nth-child(3),
+.tabela1 th:nth-child(3){
     text-align: end;
+    font-weight: bold;
+}
+.tabela1 td:nth-child(4),
+.tabela1 th:nth-child(4){
+    text-align: center;
+}
+
+.tabela2 th{
+     border-bottom: 2px solid #aaa;
+     padding: 5px;
+}
+.tabela2 td{
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+}
+.tabela2 td:nth-child(3),
+.tabela2 th:nth-child(3){
+    text-align: end;
+    font-weight: bold;
+}
+.tabela2 td:nth-child(4),
+.tabela2 th:nth-child(4){
+    text-align: center;
+}
+
+.tabela3 th{
+    background-color: #81750b;    
+    padding: 5px;
+}
+.tabela3 td{
+    padding: 5px;   
+}
+.tabela3 td:nth-child(3),
+.tabela3 th:nth-child(3){
+    text-align: end;
+    font-weight: bold;
+}
+.tabela3 td:nth-child(4),
+.tabela3 th:nth-child(4){
+    text-align: center;
+}
+.tabela3 tr:nth-child(even){
+    background-color: #81750b;
 }
