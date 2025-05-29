@@ -146,3 +146,20 @@ th{
 .tabela1 td{
     border: #aaa solid 2px;
 }
+.grid-esporte{
+    display: flex;
+    justify-content: space-between;
+    flex: start;
+    gap: 2px;
+    margin-bottom: 20px;
+    .img-esporte{
+        width: 400px;
+    }
+  h2{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  p{
+    line-height: 150%;
+  }
+}
