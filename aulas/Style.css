@@ -302,6 +302,7 @@ iframe{
     flex-wrap: wrap;
     gap: 20px;
     height: 300px;
+    text-align: center;
     *{
         flex-basis: 200px;
         flex-grow: 1;
@@ -310,6 +311,6 @@ iframe{
     p{
         line-height: 170%;
         margin: 5px;
-        font-size: 1.2rem;
+        font-size: 4rem;
     }
 }
