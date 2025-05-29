@@ -263,3 +263,53 @@ th{
 .tabela3 tr:nth-child(even){
     background-color: #81750b;
 }
+
+/* formatação da galeria de imagens */
+.galeria-destaque{
+    display: flex;                          /*Necessário pois img é tag inline*/
+    justify-content: center;                /*centralizar img*/
+    background-color: #333;
+    margin: 30px 0 10px 0;
+   img{
+    width: 60%;
+   }
+}
+.galeria-miniaturas{
+    display: flex;
+    justify-content: space-between;    
+    background-color: #333;
+    border: 3px solid #333;
+    img{
+        width: 110px;        
+    }
+}
+
+
+.video{
+    text-align: center;
+    video{
+        width: 70%;
+    }
+}
+
+iframe{
+    width: 70%;
+    height: 50vh;
+}
+
+.grid-convenios{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 300px;
+    *{
+        flex-basis: 200px;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    p{
+        line-height: 170%;
+        margin: 5px;
+        font-size: 1.2rem;
+    }
+}

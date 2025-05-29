@@ -46,4 +46,6 @@ hover é a função de quando se passa o mouse em cima de um icone
 
 https://www.w3schools.com/html/default.asp
 para estudar sobre as programações
-
+================================================================================================================
+shift alt f para organizar
+===============================================================================================================

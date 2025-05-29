@@ -128,3 +128,18 @@ p{
          background-color: #203460;
     }
 }
+table{
+    width: 100%;
+border-collapse: collapse;
+}
+th{
+    text-align: start;
+}
+.tabela1 th{
+    background-color: #aaa;
+    color: #fff;
+    border: #aaa solid 2px;
+}
+.tabela1 td{
+    border: #aaa solid 2px;
+}
