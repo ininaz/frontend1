@@ -12,12 +12,14 @@ body{
 
 header{
     /* background:linear-gradient(30deg,#fcfcfc,#3cc364,#3d4342,#112fa1,#d5362b) ; */
-    background:linear-gradient(90deg,#adadac,#e0e0e0) ;
+    background:linear-gradient(90deg,#adadac,#e0e0e0,#adadac,#e0e0e0) ;
     text-align: center;
     padding: 10px 0px 10px 0px;
     margin: 0px;
     .logo{
-        width: 15%;
+        width: 25%;
+        height: 15vh;
+        object-fit: cover;
     }
 }
    
@@ -90,11 +92,11 @@ h2{
     padding-bottom: 10px ;
     border-radius: 15px;
     text-align: center;
-}
-img{
-    width: 100%;
-    object-fit: cover;
-    height: 200px;
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 200px;
+    }
 }
 h3{
     color: #6a3bc8;
@@ -134,6 +136,7 @@ p{
 table{
     width: 100%;
 border-collapse: collapse;
+margin-bottom: 10px;
 }
 th{
     text-align: start;
@@ -162,4 +165,69 @@ th{
   p{
     line-height: 150%;
   }
+}
+
+.youtube{
+  text-align: center;
+}
+
+.grid-comercio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+    *{
+        flex-basis: 250px;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    p{
+        line-height: 170%;
+        margin: 5px;
+        font-size: 4rem;
+    }
+}
+.grid-municipio{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    align-items: flex-start;
+    .fmunicipio{
+        width: 450px;
+    }
+    h2{
+        text-align: start;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    p{
+        margin-bottom: 10px;
+        line-height: 150%;
+    }
+    ul{
+        padding-left: 20px;
+        list-style: square;
+        li{
+            line-height: 170%;
+        }
+    }
+}
+
+.foto-destaque{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin: 10px 0 30px 0;
+    img{
+        width: 60%;
+    }
+}
+.foto-miniatura{
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 170px;
+    }
 }
