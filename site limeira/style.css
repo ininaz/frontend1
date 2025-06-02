@@ -97,9 +97,11 @@ h2{
         object-fit: cover;
         height: 200px;
     }
+    h3{
+        color: #6a3bc8;   
+    }
 }
 h3{
-    color: #6a3bc8;
     margin: 10px 0 12px 0;
 }
 p{
@@ -230,4 +232,24 @@ th{
     img{
         width: 170px;
     }
+}
+
+.mapa{
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 10px;
+   h3{
+    color: #000;
+   }
+}
+
+.lista{
+    
+    ul{
+        padding-left: 20px;
+        list-style: square;
+        li{
+            line-height: 170%;
+        }
+}
 }
