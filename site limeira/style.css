@@ -54,9 +54,10 @@ h1{
 }
 h2{
     text-align: center;
-    margin-top: 15px;
+    margin: 20px 0 20px 0;
 }
 .voltar{
+    margin: 20px;
     text-align: center;
 }
 .destaque{
@@ -115,7 +116,7 @@ p{
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     a{
         background-color: #e0e0e0;
         padding: 10px 15px;
@@ -138,7 +139,7 @@ p{
 table{
     width: 100%;
 border-collapse: collapse;
-margin-bottom: 10px;
+margin-bottom: 20px;
 }
 th{
     text-align: start;
@@ -160,12 +161,11 @@ th{
     .img-esporte{
         width: 400px;
     }
-  h2{
-    text-align: center;
-    margin-bottom: 10px;
-  }
   p{
     line-height: 150%;
+  }
+  h4{
+    text-align: center;
   }
 }
 
@@ -211,6 +211,7 @@ th{
     ul{
         padding-left: 20px;
         list-style: square;
+        padding-bottom: 20px;
         li{
             line-height: 170%;
         }
@@ -229,6 +230,7 @@ th{
 .foto-miniatura{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
     img{
         width: 170px;
     }
@@ -240,11 +242,14 @@ th{
     padding-bottom: 10px;
    h3{
     color: #000;
+    margin: 20px;
+   }
+   p{
+    margin: 20px;
    }
 }
 
-.lista{
-    
+.lista{    
     ul{
         padding-left: 20px;
         list-style: square;
@@ -252,4 +257,14 @@ th{
             line-height: 170%;
         }
 }
+}
+
+.lista-esporte{
+    box-shadow: 0   3px 10PX    rgba(0,0,0,1);
+    padding-bottom: 10px ;
+    border-radius: 15px;
+    text-align: center;
+    a{color: #000;
+    text-decoration: none;
+    }
 }
