@@ -42,7 +42,7 @@ a:hover{
 main{
     width: 1200px;                          /*fixa a largura*/
     margin: 0   auto    0   auto;           /*centralizar o container (qualquer elemento de bloco) (elemento é qualquer tag do html)*/
-    padding: 40px   0   40px    0;          
+    padding: 40px   0   40px    0;              
 }
 
 section{
@@ -314,4 +314,56 @@ iframe{
         margin: 5px;
         font-size: 5rem;
         color: #0e365f;}
+    }
+
+    .contato{
+        display: flex;
+        justify-content: space-between;
+        div{                                /*formatação para toas as divs de contato*/
+            flex-basis: 45%;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+        div:last-child{                     /*formatação da ultima div (só o mapa)*/    
+            iframe{
+                width: 100%;
+                height: 80vh;
+            }
+        }
+        label{
+            display: block;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: .9rem;
+            margin-top: 20px;
+            color: #555;
+        }
+        input[type=email],                  /*tem que usar "colchete[]" não "chave{}"*/
+        input[type=text],
+        textarea{
+            padding: 10px;
+            width: 90%;
+            border: 1px solid #bbb;
+            border-radius: 5px;
+        }
+        select{
+            padding: 8px;
+            border: 1px solid #bbb;
+            border-radius: 5px;
+        }
+        input[type=checkbox]{
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        input[type=submit]{
+            border-style: none;
+            background-color: #3b5998;
+            color: #fff;
+            padding: 10px 30px;
+            border-radius: 5px;
+            cursor: pointer;                /*muda o cursor para a mãozinha*/
+        }
+        input[type=submit]:hover{           /*quando passar o mouse em cima*/
+            background-color: #000;
+        }
     }

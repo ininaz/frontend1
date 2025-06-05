@@ -268,3 +268,9 @@ th{
     text-decoration: none;
     }
 }
+
+.cadastro{
+    text-align: end;
+    font-size: 1.3rem;
+    margin: 20px 90px -50px 0;
+}
