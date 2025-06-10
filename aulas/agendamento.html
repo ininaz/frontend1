@@ -13,7 +13,7 @@
     <!-- Essa Seção é o cabeçalho -->
     <header>
         <a href="index.html">
-        <img src="Imagens/logo.png" alt="Logo da Clínica XYZ">
+            <img src="Imagens/logo.png" alt="Logo da Clínica XYZ">
     </header>
     </a>
 
@@ -24,7 +24,38 @@
         </section>
 
         <section class="agendamento">
-      
+
+            <form action="" method="post" name="form-agendamento" name="form-agendamento" id="form-agendamento">
+                <div class="form-group">
+                    <div>
+                        <label for="">Selecione a Data</label>
+                        <input type="date" name="data" id="data" required>
+                    </div>
+                    <div>
+                        <label for="">Selecione a Hora</label>
+                        <input type="time" name="hora" id="hora" required>
+                    </div>
+                    <div>
+                        <label for="">Selecione a Especialidade</label>
+                        <select name="especialidade" id="especialidade">
+                            <option></option>
+                            <option>Cardiologia</option>t
+                            <option>Clinica Geral</option>
+                            <option>Dermatologia</option>
+                            <option>Endocrinologia</option>
+                            <option>Ortopedia</option>
+                            <option>Pediatria</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label for="">Nome Completo</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div>
+                    <input type="submit" value="Confirmar Agendamento" name="confirmar" id="confirmar">
+                </div>
+            </form>
         </section>
 
         <section class="voltar">
