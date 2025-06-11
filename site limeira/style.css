@@ -92,7 +92,7 @@ h2{
     box-shadow: 0   3px 10PX    rgba(0,0,0,1);
     padding-bottom: 10px ;
     border-radius: 15px;
-    text-align: center;
+    text-align: center;   
     img{
         width: 100%;
         object-fit: cover;
@@ -114,6 +114,7 @@ p{
 }
 .redes-sociais{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
@@ -155,7 +156,7 @@ th{
 .grid-esporte{
     display: flex;
     justify-content: space-between;
-    flex: start;
+    flex: start;    
     gap: 2px;
     margin-bottom: 20px;
     .img-esporte{
@@ -191,9 +192,11 @@ th{
         font-size: 4rem;
     }
 }
-.grid-municipio{
+.grid-municipio, 
+.grid-login{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 2px;
     align-items: flex-start;
     .fmunicipio{
@@ -364,3 +367,40 @@ th{
     }
 }
 
+iframe{
+    width: 70%;
+    height: 50hv;
+}
+
+@media screen and (max-width: 800px) {  
+    main{
+        width: 100%;
+    }
+    header{
+        .logo{
+            width: 80%;
+        }
+    }
+    .grid-municipio{
+        .fmunicipio{
+            width: 100%;
+        }
+    }
+    .grid-esporte{
+        flex-wrap: wrap;
+    }
+    .card{
+        flex-direction: column;
+        align-items: start;
+        height: 100%;
+    }
+    .grid-comercio{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {  
+
+}
+@media screen and (max-width: 400px) {  
+}
